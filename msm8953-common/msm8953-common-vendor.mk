@@ -587,14 +587,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
-    libsdm-disp-vndapis \
+    libsdm-disp-vndapis
     libthermalclient \
-    QtiTelephonyService \
-    CNEService \
-    WfdService \
-    ims \
-    qcrilmsgtunnel \
-    PowerOffAlarm \
-    TimeService \
-    WfdCommon \
+#     QtiTelephonyService \
+#     CNEService \
+#     WfdService \
+#     ims \
+#     qcrilmsgtunnel \
+#     PowerOffAlarm \
+#     TimeService \
+#     WfdCommon \
     chargeonlymode
